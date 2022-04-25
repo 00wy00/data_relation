@@ -1,0 +1,63 @@
+
+  .diagram-component {
+    width: 100%;
+    border: solid 1px #fff;
+    background-color: #fff;
+    flex: 1;
+    min-height: 1;
+  }
+  canvas{
+    outline: none!important;
+  }
+  .blood_style{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .switch_wrap_content{
+    margin: auto;
+  }
+  .switch_wrap{
+    display: flex;
+    line-height: 40px;
+    margin-right: 40px;
+ }
+ .realtion_btn_wrap{
+  width: 140px;
+  justify-content: space-between;
+display: flex;
+}
+.realtion_top_switch{
+  display: flex;
+}
+.up_info{
+  margin-right: 20px;
+}
+.relation_top_info{
+  display: flex;
+  line-height: 40px;
+}
+.relation_top_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.loading_style{
+  height: 100%!important;
+}
+.loading_style .care-loading--mask{
+          pointer-events:unset
+      }
+.loading_style   .care-loading__children{
+          height: 100%;
+}
+.blood_style{
+        height: 100%;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+}
+#blood_wrap{
+  width: 100%;
+  height: 100%;
+}
